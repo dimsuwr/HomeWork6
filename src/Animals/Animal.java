@@ -12,12 +12,12 @@ public class Animal {
     }
 
     public void run(){
-        System.out.println(name + " пробежал " + runLength + " метров!");
+        System.out.println(" ");
     }
 
 
     public void swim() {
-        System.out.println(name + " пропыл" + swimLength + " метров");
+        System.out.println(" ");
     }
 
 }
