@@ -9,9 +9,9 @@ public class Cat extends Animal {
     @Override
     public void run() {
         if (runLength <= 200){
-            System.out.println(name + " пробежал " + runLength + " метров!");
+            System.out.println("Кот " + name + ", пробежал " + runLength + " метров!");
         } else {
-            System.out.println(name + " не может пробежать " + runLength + " метров, максимум что он может это 200 метров!");
+            System.out.println("Кот " + name + ", не может пробежать " + runLength + " метров, максимум что он может это 200 метров!");
         }
     }
 
